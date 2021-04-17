@@ -4,8 +4,8 @@ const { merge } = require('webpack-merge')
 const TerserPlugin = require('terser-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-const common = require('./webpack.config.common')
-const user = require('./scripts/utils/format-config')(require('./main.config.js'))
+const common = require('./webpack.config.common');
+const user = require('./scripts/utils/format-config')(require('./main.config.js'));
 
 const prodConfig = {
   mode: 'production',
@@ -56,4 +56,4 @@ const prodConfig = {
   devtool: '#source-map'
 }
 
-module.exports = merge(common.webpack, prodConfig)
+module.exports = merge(common.webpack, prodConfig);

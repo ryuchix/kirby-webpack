@@ -1,7 +1,8 @@
 {
-  "name": "kirby-webpack",
+  "name": "xd-clone",
   "version": "1.0.0",
   "description": "A kirby starter-kit with modern frontend tools",
+  "author": "Randy Corpuz",
   "main": "index.js",
   "scripts": {
     "stats": "node scripts/check-preprocessor.js && cross-env NODE_ENV=production webpack -p --config webpack.config.prod.js --profile --json > stats.json && echo \"→ Stats.json created\" && echo \"→ Drop your file to https://chrisbateman.github.io/webpack-visualizer/\"",
@@ -17,14 +18,7 @@
     "kirby:add": "node scripts/kirby-add.js",
     "kirby:remove": "node scripts/kirby-remove.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brocessing/kirby-webpack.git"
-  },
-  "bugs": {
-    "url": "https://github.com/brocessing/kirby-webpack/issues"
-  },
-  "homepage": "https://github.com/brocessing/kirby-webpack#readme",
+  "homepage": "https://randyph.com",
   "devDependencies": {
     "@babel/core": "^7.12.17",
     "@babel/plugin-transform-runtime": "^7.12.17",
